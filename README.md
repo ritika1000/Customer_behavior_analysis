@@ -6,7 +6,7 @@ An end-to-end data analytics project that analyzes customer shopping behavior us
 
 ## 📌 Project Overview
 
-This project explores customer shopping behavior using transactional data from 3,900 purchases across multiple product categories. The analysis focuses on understanding customer demographics, spending patterns, discount usage, subscription behavior, and product performance. The goal is to transform raw data into meaningful insights that can help businesses optimize marketing strategies, improve customer retention, and increase revenue. :contentReference[oaicite:0]{index=0}
+This project explores customer shopping behavior using transactional data from 3,900 purchases across multiple product categories. The analysis focuses on understanding customer demographics, spending patterns, discount usage, subscription behavior, and product performance. The goal is to transform raw data into meaningful insights that can help businesses optimize marketing strategies, improve customer retention, and increase revenue. :contentReference
 
 ---
 
@@ -32,7 +32,7 @@ This project explores customer shopping behavior using transactional data from 3
 
 ### Data Quality:
 - Missing values: 37 entries in the *Review Rating* column  
-- Missing values were handled using category-wise median imputation :contentReference[oaicite:1]{index=1}
+- Missing values were handled using category-wise median imputation 
 
 ---
 
@@ -57,7 +57,7 @@ The following steps were performed to prepare the dataset for analysis:
   - `age_group` to segment customers by age
   - `purchase_frequency_days` to understand buying patterns
 - Identified and removed redundant columns after consistency checks
-- Prepared a clean dataset for database storage and SQL analysis :contentReference[oaicite:2]{index=2}
+- Prepared a clean dataset for database storage and SQL analysis 
 
 ---
 
@@ -65,7 +65,7 @@ The following steps were performed to prepare the dataset for analysis:
 
 - Connected Python to PostgreSQL using SQLAlchemy
 - Loaded the cleaned DataFrame into PostgreSQL tables
-- Performed structured SQL analysis to answer business-focused questions :contentReference[oaicite:3]{index=3}
+- Performed structured SQL analysis to answer business-focused questions 
 
 ---
 
@@ -81,7 +81,7 @@ The following analyses were performed using SQL:
 - Customer segmentation into New, Returning, and Loyal groups
 - Top 3 products within each category
 - Relationship between repeat purchases and subscription status
-- Revenue contribution by different age groups :contentReference[oaicite:4]{index=4}
+- Revenue contribution by different age groups 
 
 ---
 
@@ -94,7 +94,7 @@ An interactive Power BI dashboard was developed to visualize:
 - Subscription and discount impact
 - Shipping type analysis
 
-The dashboard allows stakeholders to explore insights dynamically and supports data-driven business decisions. :contentReference[oaicite:5]{index=5}
+The dashboard allows stakeholders to explore insights dynamically and supports data-driven business decisions. 
 
 ---
 
@@ -114,7 +114,7 @@ The dashboard allows stakeholders to explore insights dynamically and supports d
 - Strengthen customer loyalty programs for repeat buyers  
 - Optimize discount strategies to balance sales growth and profit margins  
 - Highlight top-rated and best-selling products in marketing campaigns  
-- Focus targeted marketing efforts on high-revenue customer segments :contentReference[oaicite:6]{index=6}
+- Focus targeted marketing efforts on high-revenue customer segments 
 
 ---
 
